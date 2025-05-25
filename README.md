@@ -133,6 +133,9 @@ Use the superuser credentials to log in.
 
 ## Project View 
 
+Here is the All Task View:
+![alt text](image-4.png)
+
 Here is the Create View:
 ![alt text](image.png)
 
@@ -148,7 +151,7 @@ Here is the Update View:
 Here is the Delete View:
 ![alt text](image-3.png)
 
-## Get Project Live at: https://to-do-oieu.onrender.com/create/
+## Get Project Live at: https://to-do-oieu.onrender.com/
 
 
 

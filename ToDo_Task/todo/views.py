@@ -2,6 +2,12 @@ from rest_framework import generics
 from .models import Task
 from .serializers import ToDoTaskSerializer
 
+# List all Tasks (GET all)
+class TaskListAPIView(generics.ListAPIView):
+    queryset = Task.objects.all()
+    serializer_class = ToDoTaskSerializer
+
+
 # Create a new Task (Insert)
 class TaskCreateAPIView(generics.CreateAPIView):
     queryset = Task.objects.all()
@@ -13,7 +19,7 @@ class TaskUpdateAPIView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = ToDoTaskSerializer
     lookup_field = 'pk'
 
-# Delete a Task
+# Delete a Task (RetrieveUpdateDestroy handles delete too)
 class TaskRetrieveUpdateDestroyAPIView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Task.objects.all()
     serializer_class = ToDoTaskSerializer
@@ -24,4 +30,3 @@ class TaskRetrieveAPIView(generics.RetrieveAPIView):
     queryset = Task.objects.all()
     serializer_class = ToDoTaskSerializer
     lookup_field = 'pk'
-

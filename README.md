@@ -140,15 +140,15 @@ Here is the Create View: https://to-do-oieu.onrender.com/create/
 ![alt text](image.png)
 
 
-Here is the Get Specefic Task View: https://to-do-oieu.onrender.com/<<int:id>>/get/
+Here is the Get Specefic Task View: https://to-do-oieu.onrender.com/:id/get/
 ![alt text](image-1.png)
 
 
-Here is the Update View: https://to-do-oieu.onrender.com/<<int:id>>/update/
+Here is the Update View: https://to-do-oieu.onrender.com/:id/update/
 ![alt text](image-2.png)
 
 
-Here is the Delete View: https://to-do-oieu.onrender.com/<<int:id>>/delete/
+Here is the Delete View: https://to-do-oieu.onrender.com/:id/delete/
 ![alt text](image-3.png)
 
 ## Get Project Live at: https://to-do-oieu.onrender.com/

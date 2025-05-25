@@ -133,22 +133,22 @@ Use the superuser credentials to log in.
 
 ## Project View 
 
-Here is the All Task View:
+Here is the All Task View: https://to-do-oieu.onrender.com/
 ![alt text](image-4.png)
 
-Here is the Create View:
+Here is the Create View: https://to-do-oieu.onrender.com/create/
 ![alt text](image.png)
 
 
-Here is the Get View:
+Here is the Get Specefic Task View: https://to-do-oieu.onrender.com/<<int:id>>/get/
 ![alt text](image-1.png)
 
 
-Here is the Update View:
+Here is the Update View: https://to-do-oieu.onrender.com/<<int:id>>/update/
 ![alt text](image-2.png)
 
 
-Here is the Delete View:
+Here is the Delete View: https://to-do-oieu.onrender.com/<<int:id>>/delete/
 ![alt text](image-3.png)
 
 ## Get Project Live at: https://to-do-oieu.onrender.com/

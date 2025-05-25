@@ -20,6 +20,7 @@ It provides basic CRUD operations (Create, Read, Update, Delete) for managing ta
 - Django 5.2.1
 - Django REST Framework 3.16.0
 - SQLite (default Django database)
+- PostgreSQL for Render live deployment
 - django-filter
 
 ---
